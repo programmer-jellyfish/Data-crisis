@@ -1,0 +1,601 @@
+customer_id,age,gender,tenure_months,monthly_bill,total_bill,contract_type,payment_method,internet_plan,support_calls,complaints,usage_hours,last_login_days,data_usage_gb,num_devices,discount_percent,late_payments,satisfaction_score,region,plan_upgrade_count,paperless_billing,favorite_theme,retention_offer_status
+T0001,43,Female,17,582,7423,Two Year,Credit Card,DSL,3,0,105,6,206,3,25,0,9,East,0,No,Light,None
+T0002,45,Male,18,853,13038,Monthly,Credit Card,DSL,4,3,54,14,104,3,15,2,2,East,2,Yes,Dark,None
+T0003,46,Female,28,1354,35997,Monthly,Credit Card,DSL,2,1,58,11,102,2,5,2,6,West,1,Yes,Dark,None
+T0004,47,Female,32,1053,28669,Two Year,Credit Card,None,0,0,144,11,284,4,15,2,10,South,1,No,Light,None
+T0005,57,Male,22,1104,24296,Annual,NetBanking,Fiber,1,0,110,3,202,1,0,2,9,West,2,Yes,System,None
+T0006,45,Male,2,1125,1683,Annual,UPI,Fiber,0,0,119,6,200,2,25,1,9,North,0,Yes,System,None
+T0007,41,Female,6,1172,7006,Annual,Credit Card,Fiber,0,0,146,9,253,5,0,4,9,West,0,No,System,None
+T0008,41,Male,8,982,7875,Annual,UPI,Fiber,0,0,208,1,367,2,0,0,9,South,0,No,Dark,None
+T0009,48,Male,8,1232,8369,Monthly,UPI,Fiber,3,1,92,8,151,3,15,3,4,South,0,Yes,System,None
+T0010,29,Female,37,1036,38370,Annual,UPI,Fiber,0,0,131,6,244,2,0,0,10,South,1,No,System,None
+T0011,47,Female,12,759,8203,Two Year,Debit Card,DSL,6,2,126,2,257,5,10,0,5,South,1,No,System,None
+T0012,61,Male,24,1019,23253,Monthly,UPI,Fiber,3,1,114,22,226,3,5,1,5,South,0,No,Dark,None
+T0013,38,Female,11,866,9064,Two Year,Credit Card,Fiber,0,0,53,0,116,4,5,0,10,West,1,Yes,Light,None
+T0014,39,Female,57,830,42578,Monthly,UPI,DSL,3,0,63,8,125,2,10,1,8,South,0,No,System,None
+T0015,58,Male,19,694,11179,Two Year,Credit Card,Fiber,1,0,83,1,166,3,15,1,10,South,0,No,Dark,None
+T0016,51,Male,11,847,9332,Monthly,Credit Card,Fiber,6,4,62,30,139,3,0,2,1,South,2,No,Dark,None
+T0017,42,Female,4,1046,4212,Monthly,UPI,DSL,1,1,80,11,172,1,0,1,5,South,0,No,Dark,None
+T0018,44,Male,22,1091,24007,Monthly,Debit Card,DSL,3,2,98,17,192,3,0,4,3,South,0,Yes,Dark,None
+T0019,44,Male,17,798,13552,Monthly,UPI,Fiber,7,3,134,28,254,2,0,0,1,South,1,No,System,None
+T0020,40,Female,10,1140,11396,Two Year,Credit Card,None,8,5,177,14,343,2,0,4,1,South,0,Yes,System,None
+T0021,28,Female,3,459,1355,Annual,UPI,DSL,0,0,85,2,174,3,0,0,10,West,1,Yes,Dark,None
+T0022,26,Male,6,875,3897,Annual,Debit Card,Fiber,1,1,170,3,307,5,25,0,8,East,1,No,Dark,None
+T0023,56,Female,6,894,4556,Two Year,UPI,Fiber,1,0,117,1,236,3,15,2,10,South,1,No,Dark,None
+T0024,51,Female,7,996,6318,Annual,UPI,DSL,0,0,52,8,115,2,10,1,9,West,0,No,Light,None
+T0025,18,Female,12,1082,13000,Annual,Credit Card,DSL,1,1,99,2,195,1,0,2,7,West,1,Yes,Light,None
+T0026,48,Female,17,908,14663,Annual,UPI,DSL,0,0,109,10,194,3,5,0,10,South,0,No,System,None
+T0027,21,Male,6,791,4253,Monthly,UPI,DSL,6,3,152,14,294,3,10,0,1,North,3,Yes,System,None
+T0028,29,Female,19,1161,20974,Monthly,Debit Card,DSL,3,1,72,1,134,2,5,3,5,West,0,Yes,Light,None
+T0029,43,Female,25,836,20878,Annual,UPI,DSL,0,0,139,10,278,4,0,0,10,South,2,No,Dark,None
+T0030,28,Female,42,733,30758,Two Year,UPI,Fiber,0,0,70,11,126,4,0,1,10,East,2,No,Dark,None
+T0031,42,Female,18,885,15947,Monthly,UPI,DSL,4,1,177,13,305,4,0,3,5,West,1,No,Light,None
+T0032,18,Female,21,736,14680,Annual,NetBanking,Fiber,2,1,135,4,269,3,5,0,8,South,1,No,System,None
+T0033,47,Female,11,1115,11057,Monthly,UPI,DSL,5,1,83,7,173,3,10,2,4,West,0,Yes,System,None
+T0034,48,Female,20,1008,19112,Monthly,UPI,Fiber,3,2,156,5,291,3,5,3,4,South,0,No,Dark,None
+T0035,36,Female,11,798,7003,Annual,UPI,Fiber,4,0,122,37,226,1,20,0,8,West,3,No,Light,None
+T0036,53,Male,9,695,6235,Annual,NetBanking,None,0,0,186,16,315,2,0,4,10,North,0,Yes,Dark,None
+T0037,23,Male,12,675,6884,Monthly,UPI,DSL,1,0,134,0,239,3,15,0,8,North,1,No,Light,None
+T0038,40,Male,1,793,793,Two Year,Debit Card,DSL,0,0,118,0,235,3,0,1,9,West,0,No,Dark,None
+T0039,40,Male,1,670,670,Annual,UPI,Fiber,1,0,122,2,235,2,20,0,9,South,0,Yes,Dark,None
+T0040,28,Female,16,1114,13362,Annual,Debit Card,Fiber,1,0,157,3,287,3,25,2,9,South,1,No,Light,None
+T0041,54,Male,15,444,6009,Two Year,Credit Card,Fiber,0,0,94,7,166,2,10,1,10,West,1,No,System,None
+T0042,40,Male,9,916,6976,Annual,NetBanking,Fiber,3,1,166,0,302,2,15,2,6,West,0,Yes,System,None
+T0043,41,Male,38,712,24321,Annual,UPI,Fiber,0,0,153,4,269,2,10,0,10,South,0,No,Light,None
+T0044,50,Male,46,923,38244,Annual,UPI,DSL,1,1,143,1,256,1,10,1,8,South,0,Yes,Dark,None
+T0045,49,Male,10,649,6173,Two Year,UPI,None,0,0,70,1,134,4,5,2,10,South,1,No,System,None
+T0046,37,Male,28,1121,25106,Monthly,NetBanking,Fiber,1,0,111,4,218,3,20,1,8,West,1,Yes,Dark,None
+T0047,40,Male,34,1122,38154,Two Year,UPI,None,0,0,92,4,197,2,0,4,10,West,0,Yes,Dark,None
+T0048,42,Male,15,848,12704,Two Year,UPI,None,0,0,74,8,133,2,0,0,10,South,1,No,System,None
+T0049,51,Female,12,1078,12944,Monthly,UPI,DSL,1,1,174,3,303,3,0,2,7,West,1,No,Dark,None
+T0050,36,Female,22,1021,22462,Annual,UPI,DSL,2,1,74,8,171,3,0,1,7,East,1,No,System,None
+T0051,41,Male,19,1019,19378,Monthly,UPI,Fiber,2,1,111,3,216,2,0,0,6,West,3,Yes,Light,None
+T0052,66,Male,28,956,24112,Two Year,Credit Card,DSL,0,0,165,26,297,2,10,0,10,West,2,No,Dark,None
+T0053,45,Male,33,1362,42688,Annual,Credit Card,Fiber,0,0,91,4,192,3,5,3,9,North,1,Yes,Light,None
+T0054,28,Male,1,983,983,Two Year,UPI,DSL,2,0,129,0,244,1,20,0,8,South,0,Yes,Dark,None
+T0055,46,Female,32,929,28219,Monthly,UPI,Fiber,5,3,41,18,90,3,5,0,1,South,1,No,System,None
+T0056,75,Female,24,920,22050,Monthly,UPI,DSL,2,1,23,5,54,3,0,0,5,South,0,Yes,Dark,None
+T0057,63,Female,11,612,6054,Monthly,UPI,DSL,3,1,104,2,167,3,10,0,5,South,0,Yes,Dark,None
+T0058,33,Male,23,1158,25300,Monthly,NetBanking,Fiber,9,1,151,14,258,1,5,1,3,South,1,Yes,System,None
+T0059,56,Male,10,973,8761,Annual,UPI,Fiber,6,2,98,22,196,3,10,3,3,South,2,Yes,Dark,None
+T0060,44,Female,32,995,28625,Annual,UPI,Fiber,2,1,89,4,151,4,10,0,6,South,2,No,Light,None
+T0061,34,Female,27,819,22156,Monthly,UPI,Fiber,0,0,160,27,310,2,0,0,8,South,0,No,System,None
+T0062,27,Female,5,761,3822,Annual,NetBanking,Fiber,0,0,200,10,343,4,0,0,9,South,0,Yes,Dark,None
+T0063,25,Male,10,1298,12340,Monthly,Credit Card,DSL,4,2,24,14,62,2,5,2,2,West,1,Yes,System,None
+T0064,18,Male,3,1350,3475,Monthly,Credit Card,Fiber,5,2,68,21,116,3,15,2,2,West,0,No,Dark,None
+T0065,40,Male,42,670,22494,Monthly,Credit Card,Fiber,5,3,124,19,243,5,20,3,3,South,0,No,Light,None
+T0066,29,Male,36,865,31125,Monthly,UPI,Fiber,3,1,139,0,255,3,0,0,5,East,0,Yes,System,None
+T0067,45,Male,1,1174,1174,Monthly,NetBanking,None,4,2,163,15,287,1,0,3,2,West,0,Yes,Light,None
+T0068,32,Male,11,1115,12275,Monthly,UPI,DSL,1,1,60,7,131,1,0,3,5,West,0,No,Dark,None
+T0069,41,Female,10,859,7695,Two Year,Debit Card,DSL,0,0,65,5,149,3,10,0,10,South,0,Yes,Dark,None
+T0070,49,Male,11,642,7099,Two Year,NetBanking,Fiber,2,0,106,11,210,1,0,0,9,South,2,No,Light,None
+T0071,36,Female,1,564,564,Monthly,NetBanking,Fiber,1,1,139,8,264,2,5,0,5,South,3,No,Dark,None
+T0072,35,Female,2,944,1894,Two Year,Credit Card,Fiber,1,0,53,0,114,2,0,1,9,East,2,Yes,Dark,None
+T0073,18,Male,43,926,29866,Monthly,Debit Card,Fiber,1,1,93,16,212,2,25,0,8,South,0,No,Dark,None
+T0074,21,Female,3,881,1974,Two Year,Credit Card,Fiber,0,0,107,14,186,2,25,0,10,South,0,Yes,Light,None
+T0075,41,Female,9,847,7635,Monthly,NetBanking,Fiber,4,2,174,15,301,2,0,0,2,South,0,Yes,Light,None
+T0076,30,Male,7,1046,6575,Monthly,Credit Card,DSL,5,1,130,2,219,2,10,0,4,South,0,No,Dark,None
+T0077,28,Male,18,1156,20785,Annual,Credit Card,Fiber,5,2,130,18,256,3,0,3,3,South,0,Yes,Light,None
+T0078,18,Male,7,790,4962,Two Year,UPI,Fiber,0,0,94,2,188,3,10,0,10,East,2,No,Dark,None
+T0079,42,Female,8,1455,11029,Annual,Credit Card,Fiber,2,1,95,1,194,4,5,1,6,West,0,Yes,Light,None
+T0080,26,Male,2,771,1218,Two Year,NetBanking,DSL,2,1,116,20,214,1,20,4,8,East,1,Yes,Dark,None
+T0081,42,Male,28,955,25408,Annual,Credit Card,DSL,3,2,173,9,345,1,5,2,5,North,2,No,Dark,None
+T0082,23,Male,21,840,17625,Monthly,NetBanking,DSL,6,0,107,1,191,2,0,1,5,South,0,Yes,Light,None
+T0083,44,Female,22,1039,22816,Two Year,NetBanking,Fiber,1,0,111,4,217,2,0,0,9,West,1,No,Light,None
+T0084,57,Female,4,860,3256,Monthly,NetBanking,DSL,1,1,168,41,302,2,5,1,5,West,0,Yes,Light,None
+T0085,32,Male,16,875,12628,Two Year,Credit Card,DSL,1,0,110,1,210,2,10,1,10,South,2,Yes,Dark,None
+T0086,32,Male,11,1253,12431,Monthly,UPI,DSL,6,4,178,15,321,3,10,1,1,North,0,Yes,System,None
+T0087,45,Male,5,881,4005,Monthly,UPI,DSL,3,2,103,19,170,4,10,2,3,West,0,No,Dark,None
+T0088,32,Male,4,1345,5364,Two Year,UPI,DSL,4,3,89,21,147,1,0,1,2,South,1,Yes,Light,None
+T0089,24,Female,43,1118,48078,Annual,Credit Card,Fiber,0,0,141,9,246,2,0,3,10,West,0,Yes,System,None
+T0090,38,Male,12,856,9798,Monthly,Debit Card,None,0,0,99,0,173,1,5,1,8,North,0,Yes,System,None
+T0091,55,Male,14,734,9250,Annual,Credit Card,Fiber,1,0,176,0,317,4,10,1,10,South,0,Yes,Light,None
+T0092,75,Female,33,712,23492,Monthly,UPI,DSL,1,1,129,14,239,4,0,0,6,West,1,No,Dark,None
+T0093,57,Female,25,1151,21574,Monthly,UPI,Fiber,1,1,154,4,301,2,25,1,7,East,1,No,System,None
+T0094,52,Male,28,836,23410,Monthly,NetBanking,Fiber,2,1,59,6,116,4,0,0,5,North,1,Yes,Light,None
+T0095,48,Male,7,853,5987,Monthly,UPI,DSL,3,1,78,2,160,2,0,0,5,West,3,No,System,None
+T0096,30,Female,2,1186,2111,Monthly,UPI,DSL,5,3,156,21,284,1,10,7,1,South,1,Yes,System,None
+T0097,59,Male,11,903,9424,Monthly,UPI,Fiber,3,2,58,15,125,4,5,0,3,North,2,No,Light,None
+T0098,46,Female,50,797,39890,Monthly,NetBanking,Fiber,0,0,187,5,313,2,0,0,9,South,0,Yes,Dark,None
+T0099,45,Female,17,1019,14753,Two Year,UPI,Fiber,2,0,127,1,239,4,15,0,10,West,2,Yes,Dark,None
+T0100,32,Female,10,1034,9785,Monthly,NetBanking,DSL,1,1,68,1,142,2,5,1,5,South,1,No,Dark,None
+T0101,23,Female,14,845,11848,Monthly,Debit Card,Fiber,2,1,90,4,149,4,0,0,5,South,0,No,System,None
+T0102,56,Male,7,1051,6976,Monthly,UPI,Fiber,1,1,80,2,126,4,5,2,4,South,0,No,Dark,None
+T0103,57,Female,7,510,3237,Monthly,Debit Card,None,4,1,50,10,108,3,10,2,5,South,0,No,Light,None
+T0104,30,Female,20,1124,20248,Monthly,Credit Card,DSL,2,1,112,3,182,5,10,1,5,East,0,Yes,Light,None
+T0105,46,Male,31,999,30988,Annual,UPI,Fiber,1,0,44,19,118,4,0,2,9,South,1,Yes,System,None
+T0106,40,Female,11,799,8809,Monthly,UPI,DSL,3,2,173,0,330,3,0,1,4,South,0,No,Light,None
+T0107,38,Male,6,865,5187,Monthly,Credit Card,Fiber,1,1,100,1,189,1,0,0,5,West,1,Yes,System,None
+T0108,30,Male,4,910,3652,Monthly,Credit Card,DSL,2,1,118,36,245,3,0,0,4,South,1,No,Light,None
+T0109,26,Female,6,1076,6456,Two Year,UPI,DSL,0,0,122,8,192,3,0,2,10,West,2,No,System,None
+T0110,42,Male,17,956,16232,Annual,UPI,Fiber,0,0,41,4,108,3,0,1,10,South,2,No,System,None
+T0111,56,Male,5,949,4758,Annual,Credit Card,DSL,3,1,98,0,196,3,0,1,5,West,1,Yes,Dark,None
+T0112,39,Female,18,765,13115,Monthly,Credit Card,Fiber,0,0,149,12,266,4,5,0,9,East,0,No,Dark,None
+T0113,53,Female,45,705,26971,Monthly,Credit Card,DSL,6,0,106,6,196,4,15,0,7,West,0,Yes,Light,None
+T0114,42,Female,7,1116,7424,Monthly,Credit Card,DSL,2,1,108,5,208,2,5,2,5,West,0,No,Light,None
+T0115,38,Male,29,909,25034,Monthly,Credit Card,Fiber,2,1,163,10,292,4,5,1,6,South,0,Yes,Light,None
+T0116,33,Male,4,1451,5229,Two Year,UPI,Fiber,0,0,83,3,163,3,10,1,9,West,0,No,Light,None
+T0117,44,Female,12,956,11451,Annual,Debit Card,Fiber,2,1,151,17,295,2,0,1,7,South,0,Yes,System,None
+T0118,31,Female,35,717,18835,Annual,Credit Card,Fiber,7,2,81,20,182,2,25,0,3,South,0,Yes,System,None
+T0119,41,Female,14,709,9429,Monthly,NetBanking,Fiber,2,0,80,10,155,1,5,1,7,South,0,No,System,None
+T0120,30,Female,4,1208,4855,Monthly,Credit Card,Fiber,3,2,105,14,205,1,0,1,3,South,1,No,Light,None
+T0121,62,Female,72,982,63633,Monthly,NetBanking,Fiber,1,0,118,28,204,3,10,0,9,West,0,No,System,None
+T0122,70,Female,28,750,16799,Monthly,UPI,DSL,8,5,110,33,208,4,20,1,1,South,0,Yes,Light,None
+T0123,55,Male,10,1059,10024,Two Year,UPI,Fiber,2,1,83,3,165,3,5,3,8,East,0,No,Dark,None
+T0124,31,Female,8,890,6417,Monthly,Debit Card,DSL,2,1,115,13,218,1,10,2,6,East,1,Yes,Dark,None
+T0125,18,Female,10,736,6988,Monthly,UPI,Fiber,1,1,77,7,152,1,5,0,6,West,1,Yes,Light,None
+T0126,63,Male,14,774,10792,Monthly,Credit Card,Fiber,5,1,62,6,112,2,0,1,4,West,0,Yes,Dark,None
+T0127,42,Male,1,1065,1065,Monthly,UPI,DSL,6,2,117,23,252,3,0,4,1,South,1,No,System,None
+T0128,37,Female,27,844,21644,Two Year,Credit Card,None,4,0,114,7,187,3,5,0,8,East,0,No,Dark,None
+T0129,20,Female,5,860,4287,Two Year,UPI,Fiber,2,1,70,2,117,1,0,0,6,North,1,No,System,None
+T0130,48,Female,29,783,21571,Two Year,Credit Card,Fiber,4,0,155,0,273,4,5,0,9,South,1,Yes,Dark,None
+T0131,18,Male,6,1116,5060,Annual,Credit Card,DSL,1,0,105,6,210,2,25,1,9,West,0,No,System,None
+T0132,29,Male,8,1270,9650,Annual,UPI,None,2,1,99,1,206,4,5,2,6,South,0,Yes,Dark,None
+T0133,47,Male,5,574,2445,Annual,NetBanking,None,0,0,38,4,100,2,15,2,10,South,2,No,System,None
+T0134,26,Male,14,959,13439,Monthly,Debit Card,DSL,1,0,112,5,199,3,0,2,8,West,0,No,System,None
+T0135,28,Female,3,1084,3067,Monthly,NetBanking,None,2,1,98,2,186,1,5,1,5,North,2,No,Dark,None
+T0136,67,Male,11,934,9242,Monthly,UPI,Fiber,4,1,173,0,319,1,10,0,4,South,0,Yes,System,None
+T0137,49,Female,40,1289,41266,Monthly,UPI,Fiber,3,2,139,0,254,4,20,1,5,West,0,No,System,None
+T0138,42,Male,4,1193,4272,Monthly,Debit Card,Fiber,3,2,135,51,253,3,10,8,2,West,2,Yes,Dark,None
+T0139,52,Female,11,843,8830,Monthly,Debit Card,Fiber,4,1,74,8,153,3,5,0,4,North,1,Yes,System,None
+T0140,43,Male,17,762,12309,Monthly,Credit Card,Fiber,4,1,66,11,141,4,5,0,5,South,0,No,System,None
+T0141,48,Male,9,911,8174,Monthly,NetBanking,Fiber,0,0,150,12,255,2,0,0,8,South,1,No,System,None
+T0142,53,Female,8,1008,8054,Monthly,UPI,DSL,4,2,112,16,211,3,0,0,3,South,2,No,System,None
+T0143,35,Male,5,1092,5424,Monthly,Credit Card,Fiber,4,1,124,0,227,3,0,2,4,West,2,No,Dark,None
+T0144,32,Male,31,664,17485,Monthly,UPI,DSL,2,0,126,3,231,4,15,0,8,South,1,Yes,Dark,None
+T0145,24,Female,1,988,988,Two Year,UPI,DSL,0,0,90,40,148,2,0,1,9,East,1,Yes,System,None
+T0146,54,Female,3,947,2155,Monthly,UPI,Fiber,2,1,20,1,66,2,25,0,6,South,0,Yes,Light,None
+T0147,28,Male,8,937,7097,Monthly,Credit Card,DSL,1,1,147,12,283,1,5,0,6,West,0,No,System,None
+T0148,55,Female,36,860,29414,Annual,NetBanking,DSL,1,0,128,6,219,3,5,1,9,South,2,Yes,Dark,None
+T0149,29,Male,11,798,7459,Annual,Credit Card,Fiber,1,1,73,9,127,3,15,0,7,South,1,Yes,System,None
+T0150,48,Male,3,938,2529,Two Year,NetBanking,Fiber,0,0,150,0,292,5,10,0,10,North,0,Yes,Light,None
+T0151,23,Male,3,1299,3881,Monthly,Credit Card,Fiber,1,1,196,10,340,1,0,1,4,South,0,Yes,Dark,None
+T0152,53,Female,2,589,1058,Monthly,NetBanking,Fiber,2,1,183,25,336,2,10,0,5,North,1,No,Dark,None
+T0153,63,Male,9,1157,9872,Monthly,UPI,Fiber,3,2,49,18,102,3,5,1,3,East,0,No,System,None
+T0154,50,Male,14,859,9024,Monthly,UPI,Fiber,0,0,131,24,237,1,25,0,9,West,1,Yes,Light,None
+T0155,50,Male,3,862,2591,Monthly,UPI,DSL,4,2,75,14,133,3,0,0,2,West,0,No,System,None
+T0156,51,Male,26,559,14536,Annual,Debit Card,None,0,0,102,4,184,1,0,4,9,South,1,No,Light,None
+T0157,39,Female,12,1008,9660,Two Year,UPI,Fiber,0,0,145,4,288,3,20,0,10,West,1,Yes,Dark,None
+T0158,41,Female,17,1295,20946,Two Year,UPI,DSL,0,0,115,3,213,3,5,1,9,West,3,No,Light,None
+T0159,56,Male,30,785,21210,Annual,NetBanking,Fiber,3,0,135,6,242,2,10,2,9,South,0,No,System,None
+T0160,48,Female,6,698,3153,Annual,UPI,Fiber,2,1,80,7,164,3,25,0,7,South,2,Yes,System,None
+T0161,50,Male,31,1056,29486,Monthly,Credit Card,Fiber,2,1,93,17,183,2,10,1,6,West,0,Yes,Light,None
+T0162,42,Female,26,942,20854,Monthly,Credit Card,Fiber,0,0,73,0,142,3,15,1,9,West,1,Yes,Dark,None
+T0163,58,Male,17,975,14083,Monthly,NetBanking,Fiber,0,0,168,9,313,3,15,0,9,West,3,No,System,None
+T0164,52,Male,8,1057,8454,Two Year,NetBanking,Fiber,0,0,96,0,206,2,0,1,9,South,0,Yes,System,None
+T0165,29,Male,52,1015,50151,Two Year,Credit Card,None,1,0,125,6,210,1,5,0,10,West,1,Yes,Light,None
+T0166,18,Female,13,931,10886,Two Year,Credit Card,Fiber,3,0,108,1,211,2,10,0,9,West,0,No,Light,None
+T0167,63,Male,19,1057,18072,Monthly,Credit Card,Fiber,2,1,69,0,136,1,10,1,6,North,0,No,System,None
+T0168,23,Female,13,859,8919,Monthly,Debit Card,Fiber,5,3,71,15,148,2,20,0,2,North,1,No,System,None
+T0169,49,Female,9,1156,10454,Monthly,UPI,Fiber,2,1,111,1,197,3,0,2,5,West,1,No,Light,None
+T0170,28,Female,4,972,3883,Annual,Credit Card,Fiber,2,1,91,0,160,2,0,1,5,West,1,Yes,System,None
+T0171,49,Male,10,1070,10699,Monthly,NetBanking,Fiber,3,2,132,17,259,2,0,3,3,East,0,Yes,System,None
+T0172,44,Male,9,1111,8475,Two Year,UPI,DSL,2,0,127,8,245,2,15,1,10,North,0,Yes,System,None
+T0173,62,Male,3,601,1598,Annual,UPI,DSL,5,2,137,15,266,2,10,1,3,West,0,Yes,Light,None
+T0174,40,Male,28,1227,27457,Annual,Credit Card,Fiber,3,0,135,5,246,3,20,1,9,South,0,No,Light,None
+T0175,71,Male,13,908,11811,Monthly,Credit Card,Fiber,2,1,205,1,391,1,0,0,5,South,0,Yes,Light,None
+T0176,61,Female,23,794,17344,Two Year,Debit Card,Fiber,1,0,92,2,179,3,5,0,9,South,3,No,System,None
+T0177,71,Male,24,1099,25051,Monthly,Credit Card,DSL,2,1,104,5,183,2,5,2,6,South,2,Yes,Dark,None
+T0178,38,Male,15,1327,19919,Annual,Credit Card,DSL,1,0,121,8,210,2,0,1,8,West,0,No,Dark,None
+T0179,52,Female,7,905,6336,Monthly,Debit Card,DSL,2,1,116,6,200,5,0,0,5,East,3,Yes,Dark,None
+T0180,57,Male,38,1168,35490,Monthly,Credit Card,Fiber,0,0,103,2,177,2,20,4,10,West,2,Yes,Dark,None
+T0181,52,Female,8,742,5941,Annual,UPI,None,4,2,95,1,168,4,0,0,4,West,0,No,Light,None
+T0182,46,Male,5,822,4127,Annual,Credit Card,Fiber,2,1,176,19,336,1,0,2,6,West,0,No,System,None
+T0183,20,Male,7,1068,7460,Annual,NetBanking,DSL,2,1,136,3,251,2,0,5,6,South,0,Yes,Dark,None
+T0184,39,Male,19,818,14793,Annual,NetBanking,DSL,3,0,108,2,191,2,5,1,8,North,0,Yes,System,None
+T0185,55,Male,13,1102,12896,Monthly,UPI,DSL,5,2,89,16,169,2,10,1,3,West,1,Yes,Dark,None
+T0186,34,Female,4,1220,4892,Monthly,Credit Card,Fiber,2,1,145,11,253,3,0,3,5,West,2,No,Light,None
+T0187,47,Female,20,884,17685,Monthly,UPI,DSL,1,1,107,7,191,3,0,1,6,South,0,Yes,System,None
+T0188,64,Female,40,1004,38137,Annual,Credit Card,DSL,1,1,131,23,219,2,5,0,8,West,0,Yes,System,None
+T0189,37,Male,15,1198,16178,Monthly,Credit Card,DSL,1,1,28,2,50,3,10,3,6,West,1,No,Dark,None
+T0190,41,Male,25,795,17901,Annual,UPI,None,3,1,90,3,186,1,10,1,7,South,2,Yes,Dark,None
+T0191,36,Male,11,898,8868,Monthly,Debit Card,Fiber,2,1,146,18,245,4,10,1,5,East,1,Yes,Dark,None
+T0192,43,Male,1,788,788,Monthly,NetBanking,Fiber,1,1,124,15,239,2,20,0,7,South,0,No,Dark,None
+T0193,63,Male,16,1003,14410,Annual,UPI,DSL,0,0,108,6,221,3,10,1,10,East,0,Yes,System,None
+T0194,46,Female,3,957,2569,Annual,NetBanking,Fiber,2,1,124,1,226,3,10,1,6,South,0,No,System,None
+T0195,30,Male,13,1063,12441,Annual,Debit Card,Fiber,0,0,147,2,266,4,10,1,10,West,1,No,System,None
+T0196,18,Male,6,822,4903,Two Year,Credit Card,Fiber,3,0,140,6,246,5,0,0,8,South,0,No,Dark,None
+T0197,18,Male,25,929,22079,Monthly,Debit Card,Fiber,2,1,153,0,304,2,5,0,5,West,1,Yes,Dark,None
+T0198,51,Male,9,607,5177,Monthly,Credit Card,DSL,4,1,165,10,328,1,5,0,4,South,0,No,Dark,None
+T0199,33,Female,8,982,7873,Monthly,NetBanking,DSL,1,1,116,2,200,4,0,0,6,North,1,Yes,System,None
+T0200,31,Male,1,1125,1125,Monthly,NetBanking,Fiber,3,2,134,17,258,1,10,3,3,West,0,No,Dark,None
+T0201,18,Female,14,749,9914,Two Year,NetBanking,DSL,5,1,91,21,183,2,5,0,6,South,1,No,System,None
+T0202,36,Female,8,1023,6147,Monthly,UPI,Fiber,2,1,48,14,109,1,25,2,6,West,0,Yes,Dark,None
+T0203,18,Female,22,949,17773,Monthly,UPI,DSL,1,0,145,5,284,1,15,0,7,South,2,Yes,Dark,None
+T0204,38,Male,32,692,21038,Annual,Debit Card,DSL,2,1,61,12,130,2,5,1,7,North,0,Yes,Dark,None
+T0205,63,Female,3,864,2326,Monthly,Credit Card,DSL,5,2,101,14,230,4,10,0,3,South,0,No,Light,None
+T0206,52,Female,14,1031,13709,Annual,UPI,DSL,1,1,127,3,210,3,5,0,7,West,1,No,System,None
+T0207,37,Female,7,1008,5314,Monthly,NetBanking,None,6,1,209,7,362,2,25,0,4,South,0,No,Dark,None
+T0208,25,Female,12,999,11355,Monthly,Credit Card,Fiber,0,0,135,2,240,2,5,0,8,West,0,No,Light,None
+T0209,49,Female,19,787,11946,Monthly,Credit Card,DSL,1,0,147,2,287,3,20,1,9,East,0,Yes,Light,None
+T0210,29,Female,7,1186,8336,Monthly,NetBanking,Fiber,2,1,67,0,124,3,0,1,4,South,2,Yes,Dark,None
+T0211,21,Female,11,1084,11325,Monthly,Credit Card,Fiber,7,4,171,18,296,4,5,1,1,West,0,No,System,None
+T0212,44,Male,21,907,17128,Two Year,UPI,Fiber,0,0,116,0,220,3,10,1,10,North,1,No,Light,None
+T0213,39,Male,11,1317,13033,Annual,UPI,Fiber,1,1,77,5,143,1,10,1,7,South,0,Yes,Dark,None
+T0214,37,Female,12,865,9327,Two Year,UPI,DSL,3,1,132,11,256,2,10,2,8,South,0,No,Light,None
+T0215,36,Male,18,1048,15111,Two Year,Credit Card,DSL,5,2,62,7,120,2,20,1,6,South,1,Yes,Light,None
+T0216,18,Female,4,845,2559,Two Year,Credit Card,None,1,0,48,1,95,3,25,1,10,North,3,No,System,None
+T0217,34,Male,1,916,916,Monthly,UPI,DSL,5,1,123,0,266,3,10,2,4,South,0,No,System,None
+T0218,26,Male,20,1395,25095,Monthly,UPI,DSL,2,1,105,16,201,3,10,2,6,West,0,Yes,Dark,None
+T0219,37,Female,22,623,13052,Two Year,UPI,Fiber,0,0,93,6,209,2,5,2,10,West,2,No,Dark,None
+T0220,34,Male,12,1053,12013,Annual,NetBanking,Fiber,2,1,109,1,212,3,5,1,8,West,0,No,Light,None
+T0221,35,Female,14,1186,16583,Two Year,Credit Card,DSL,3,2,80,8,138,1,0,1,5,East,3,No,Light,None
+T0222,41,Male,22,949,19822,Two Year,Credit Card,DSL,0,0,141,5,234,4,5,2,10,South,1,Yes,Dark,None
+T0223,36,Female,8,1076,8612,Annual,Credit Card,Fiber,3,1,143,19,239,3,0,1,6,West,0,No,Light,None
+T0224,18,Female,22,794,17459,Two Year,Credit Card,DSL,0,0,45,7,98,3,0,2,10,South,0,Yes,System,None
+T0225,47,Male,38,1433,51740,Monthly,UPI,DSL,2,0,110,29,201,3,5,2,8,South,1,Yes,Dark,None
+T0226,27,Male,4,705,2822,Monthly,UPI,DSL,3,2,109,17,223,5,0,2,2,West,0,No,Light,None
+T0227,40,Male,26,841,20782,Monthly,NetBanking,DSL,7,2,112,33,205,3,5,0,2,South,0,Yes,System,None
+T0228,44,Female,14,706,7902,Monthly,UPI,DSL,5,3,68,33,132,2,20,2,2,West,2,No,System,None
+T0229,52,Female,13,1015,12564,Two Year,Credit Card,None,0,0,131,4,255,3,5,0,10,East,0,No,System,None
+T0230,38,Male,35,959,33550,Two Year,Credit Card,Fiber,3,1,163,1,295,5,0,1,7,East,1,Yes,Dark,None
+T0231,34,Male,6,1591,8559,Two Year,UPI,DSL,1,0,91,4,157,4,10,1,9,South,1,Yes,System,None
+T0232,44,Female,15,976,14627,Monthly,Debit Card,DSL,1,0,98,9,164,3,0,1,7,South,0,No,Light,None
+T0233,29,Male,19,934,17744,Annual,Credit Card,Fiber,5,1,162,10,312,4,0,0,5,South,1,No,Light,None
+T0234,26,Male,16,870,13908,Monthly,Credit Card,Fiber,0,0,40,2,97,2,0,0,8,South,0,No,Light,None
+T0235,36,Female,4,524,1852,Monthly,UPI,Fiber,2,1,145,25,294,4,10,2,5,West,0,No,Dark,None
+T0236,51,Male,8,1252,8021,Two Year,Credit Card,DSL,4,2,57,32,111,2,20,4,5,South,2,Yes,Dark,None
+T0237,33,Male,24,924,18881,Annual,NetBanking,DSL,1,1,127,5,247,3,15,0,7,South,1,No,System,None
+T0238,45,Female,44,1167,48802,Annual,UPI,DSL,3,0,156,0,288,1,5,1,8,East,0,No,Light,None
+T0239,38,Female,8,734,5856,Annual,UPI,Fiber,1,1,219,0,373,6,0,1,6,North,0,Yes,System,None
+T0240,34,Female,28,783,20827,Monthly,Debit Card,DSL,3,1,126,5,223,2,5,0,5,West,1,Yes,Dark,None
+T0241,40,Male,4,701,2245,Monthly,UPI,Fiber,4,1,69,13,100,1,20,1,5,North,1,Yes,System,None
+T0242,61,Male,10,479,4568,Monthly,Credit Card,DSL,0,0,109,11,200,2,5,0,9,South,2,Yes,System,None
+T0243,54,Female,26,1081,25316,Monthly,UPI,DSL,2,1,90,2,169,1,10,3,6,West,0,No,Light,None
+T0244,38,Female,3,909,2463,Annual,UPI,Fiber,1,0,132,14,249,2,10,0,8,South,1,No,Dark,None
+T0245,45,Female,11,1003,11060,Monthly,UPI,DSL,6,4,106,20,179,3,0,0,1,East,0,Yes,Light,None
+T0246,24,Male,3,1038,3142,Monthly,Debit Card,DSL,2,1,80,1,167,1,0,1,4,East,0,No,Dark,None
+T0247,54,Male,14,689,9674,Monthly,UPI,DSL,3,1,126,1,249,2,0,1,6,West,0,No,Light,None
+T0248,54,Female,27,974,24940,Two Year,Credit Card,DSL,2,1,143,32,262,3,5,1,8,South,1,No,Light,None
+T0249,23,Male,8,644,5183,Monthly,UPI,DSL,2,1,85,0,158,4,0,1,5,West,0,Yes,Dark,None
+T0250,70,Female,25,938,23462,Annual,Credit Card,DSL,3,1,100,7,198,3,0,0,7,East,2,Yes,System,None
+T0251,49,Male,26,809,19997,Annual,Credit Card,DSL,0,0,124,3,253,1,5,0,9,East,3,No,Dark,None
+T0252,34,Male,17,951,13743,Monthly,Credit Card,Fiber,2,1,97,6,180,1,15,0,6,South,0,Yes,System,None
+T0253,25,Female,24,1002,21645,Monthly,UPI,Fiber,1,0,134,3,246,3,10,0,8,South,3,Yes,System,None
+T0254,52,Male,16,585,9338,Monthly,UPI,Fiber,3,1,62,4,133,3,0,2,5,South,2,No,Dark,None
+T0255,30,Female,9,1122,8076,Monthly,Credit Card,Fiber,1,1,141,0,231,4,20,2,6,West,1,No,System,None
+T0256,55,Male,8,692,5274,Monthly,UPI,Fiber,2,1,166,5,312,3,5,0,5,West,2,No,Light,None
+T0257,43,Male,10,549,4967,Monthly,Credit Card,Fiber,3,2,131,14,235,3,10,0,3,West,1,Yes,System,None
+T0258,52,Female,26,464,12001,Annual,NetBanking,Fiber,0,0,135,18,250,2,0,1,10,West,1,No,Dark,None
+T0259,29,Female,25,848,20127,Monthly,NetBanking,Fiber,4,2,152,16,295,2,5,0,3,North,2,Yes,System,None
+T0260,27,Male,19,1154,18606,Annual,UPI,Fiber,1,1,88,0,171,3,15,1,7,South,2,Yes,System,None
+T0261,35,Female,2,1012,2026,Monthly,Credit Card,DSL,2,1,66,6,142,4,0,4,4,South,2,No,Light,None
+T0262,60,Female,8,931,7085,Monthly,UPI,Fiber,4,2,163,26,300,3,5,3,3,South,0,Yes,Light,None
+T0263,32,Female,7,1281,7170,Annual,UPI,Fiber,4,1,101,5,192,3,20,4,7,West,0,Yes,Light,None
+T0264,52,Male,10,739,5534,Monthly,Credit Card,DSL,3,1,137,1,255,3,25,0,5,West,0,Yes,Light,None
+T0265,18,Male,12,1198,13647,Monthly,Credit Card,DSL,1,1,132,1,238,3,5,4,6,South,0,Yes,Dark,None
+T0266,48,Female,4,580,2214,Two Year,NetBanking,DSL,2,1,104,1,179,3,5,0,7,South,0,No,System,None
+T0267,61,Female,18,988,16849,Monthly,UPI,Fiber,0,0,98,3,202,3,5,0,8,South,3,Yes,System,None
+T0268,51,Female,9,1147,10331,Monthly,UPI,Fiber,2,1,99,6,186,2,0,1,5,West,0,Yes,Light,None
+T0269,30,Female,3,844,2546,Annual,Credit Card,Fiber,1,1,145,4,279,2,0,1,7,South,0,Yes,System,None
+T0270,41,Female,18,998,17948,Monthly,UPI,None,3,2,103,0,188,1,0,0,4,East,1,Yes,System,None
+T0271,74,Female,5,772,3075,Monthly,UPI,DSL,5,3,124,16,209,2,20,0,1,North,1,Yes,Dark,None
+T0272,43,Female,6,811,4369,Annual,NetBanking,Fiber,0,0,93,2,175,3,10,0,9,West,0,No,Light,None
+T0273,30,Male,15,650,9776,Annual,UPI,Fiber,0,0,29,10,78,2,0,1,10,South,2,Yes,Dark,None
+T0274,44,Male,34,1155,31453,Monthly,UPI,DSL,2,1,101,6,163,4,20,2,7,West,1,Yes,System,None
+T0275,39,Male,32,556,14225,Monthly,UPI,Fiber,5,2,134,7,227,5,20,0,4,North,0,No,System,None
+T0276,37,Female,8,920,6288,Two Year,Credit Card,Fiber,3,2,110,19,212,2,15,1,6,South,1,No,Light,None
+T0277,29,Male,17,844,13608,Monthly,UPI,Fiber,2,1,81,0,152,2,5,1,6,West,1,Yes,Light,None
+T0278,69,Female,19,968,18378,Monthly,NetBanking,Fiber,0,0,107,4,225,3,0,0,9,South,1,No,System,None
+T0279,43,Male,15,773,11584,Two Year,Credit Card,None,0,0,153,3,279,2,0,0,10,East,0,Yes,Light,None
+T0280,24,Female,4,957,3632,Two Year,NetBanking,Fiber,1,0,88,0,174,4,5,0,9,South,3,No,Dark,None
+T0281,30,Female,11,845,8808,Monthly,Credit Card,Fiber,2,1,26,0,66,2,5,1,6,South,0,Yes,System,None
+T0282,37,Male,5,816,3443,Monthly,Credit Card,Fiber,5,1,159,16,308,1,15,3,3,West,2,Yes,Dark,None
+T0283,28,Female,6,851,3815,Monthly,NetBanking,Fiber,3,2,159,14,324,1,25,1,4,West,0,Yes,Dark,None
+T0284,40,Female,20,939,16893,Monthly,UPI,DSL,0,0,74,4,163,3,10,2,8,West,1,Yes,Light,None
+T0285,27,Male,2,887,1777,Two Year,Credit Card,Fiber,1,1,73,42,127,5,0,0,8,West,0,No,System,None
+T0286,47,Male,23,715,13990,Monthly,Credit Card,Fiber,2,0,91,2,199,1,15,0,8,South,1,Yes,System,None
+T0287,48,Male,33,1047,31087,Monthly,UPI,Fiber,4,2,106,2,198,1,10,0,4,West,1,Yes,Dark,None
+T0288,36,Male,9,349,2659,Monthly,Credit Card,None,1,0,96,9,201,2,15,0,8,South,2,Yes,Dark,None
+T0289,47,Female,14,802,9559,Annual,NetBanking,Fiber,1,0,165,10,326,2,15,0,9,South,1,Yes,Dark,None
+T0290,35,Male,19,1087,20654,Annual,Debit Card,Fiber,0,0,135,13,258,3,0,1,10,South,0,No,System,None
+T0291,41,Female,5,781,3512,Monthly,Debit Card,Fiber,4,1,81,0,136,3,10,0,5,West,1,No,Light,None
+T0292,41,Male,1,1062,1069,Monthly,NetBanking,Fiber,3,2,134,49,255,3,0,1,3,South,0,No,Light,None
+T0293,20,Male,17,809,12381,Monthly,UPI,None,2,1,101,12,206,3,10,1,6,West,0,Yes,System,None
+T0294,30,Female,13,814,10588,Monthly,Debit Card,Fiber,0,0,99,18,190,1,0,0,8,South,2,Yes,Light,None
+T0295,31,Male,19,1116,19078,Monthly,NetBanking,Fiber,1,1,147,7,256,4,10,3,7,East,0,Yes,Light,None
+T0296,44,Female,2,984,1937,Annual,Debit Card,DSL,1,1,77,8,137,2,0,4,7,West,0,Yes,Light,None
+T0297,51,Male,9,843,7559,Two Year,Credit Card,Fiber,0,0,99,0,199,2,0,0,9,South,0,No,Dark,None
+T0298,34,Male,6,876,5270,Annual,Credit Card,Fiber,2,1,133,0,258,3,0,0,7,East,0,No,Dark,None
+T0299,36,Female,24,963,21924,Annual,Credit Card,None,2,1,149,10,257,4,5,0,7,West,0,Yes,System,None
+T0300,51,Female,15,787,11180,Monthly,UPI,DSL,2,1,121,5,248,2,5,3,5,West,1,No,Light,None
+T0301,48,Female,35,1096,30726,Annual,Debit Card,DSL,0,0,152,11,294,1,20,2,10,West,2,No,System,None
+T0302,28,Female,30,1029,26255,Annual,UPI,Fiber,0,0,87,10,159,1,15,0,9,South,0,No,System,None
+T0303,42,Female,3,1230,3502,Monthly,NetBanking,DSL,5,3,128,29,251,4,5,1,1,North,2,No,Light,None
+T0304,33,Female,5,949,4769,Two Year,Credit Card,Fiber,2,1,146,0,262,1,0,2,7,South,0,No,System,None
+T0305,40,Male,20,819,16370,Annual,Credit Card,None,0,0,94,0,173,2,0,2,10,South,0,No,Dark,None
+T0306,44,Female,6,696,3784,Monthly,Credit Card,DSL,5,2,96,18,183,3,10,3,3,North,2,Yes,System,None
+T0307,46,Female,34,933,31727,Monthly,NetBanking,Fiber,0,0,41,0,64,3,0,0,8,South,1,Yes,Dark,None
+T0308,43,Male,10,905,6774,Annual,Debit Card,DSL,2,1,51,0,98,2,25,1,7,West,0,Yes,System,None
+T0309,34,Male,34,786,25407,Annual,UPI,Fiber,2,0,206,4,372,2,5,2,9,East,0,No,Dark,None
+T0310,24,Female,15,1010,15177,Annual,Debit Card,Fiber,0,0,104,10,203,3,0,0,9,South,0,Yes,System,None
+T0311,44,Female,8,1091,8292,Monthly,Credit Card,Fiber,3,2,112,22,217,4,5,3,3,North,0,Yes,Light,None
+T0312,31,Male,5,981,4879,Two Year,Debit Card,Fiber,0,0,149,4,278,3,0,0,9,West,2,No,Dark,None
+T0313,23,Female,9,413,3391,Monthly,UPI,Fiber,5,1,90,0,188,2,10,4,4,East,0,No,Dark,None
+T0314,56,Male,9,1060,8590,Monthly,UPI,Fiber,3,2,82,21,161,1,10,1,3,South,2,Yes,Light,None
+T0315,50,Female,9,870,7007,Monthly,UPI,DSL,2,1,102,4,190,4,10,2,5,South,2,Yes,Light,None
+T0316,55,Female,29,987,28611,Monthly,Credit Card,Fiber,1,1,98,2,214,2,0,1,6,South,0,No,System,None
+T0317,18,Female,10,942,8965,Two Year,Credit Card,DSL,0,0,196,2,374,2,5,0,10,South,1,Yes,Dark,None
+T0318,23,Male,9,1222,10462,Two Year,UPI,DSL,0,0,150,7,277,2,5,3,9,East,0,No,Light,None
+T0319,41,Male,72,756,46263,Two Year,Credit Card,Fiber,3,1,89,15,187,3,15,1,9,West,1,Yes,Light,None
+T0320,59,Male,8,1008,8058,Monthly,UPI,Fiber,3,1,121,3,206,1,0,0,5,East,0,Yes,Light,None
+T0321,39,Male,14,818,10854,Monthly,Credit Card,Fiber,2,1,109,0,205,2,5,0,6,East,0,Yes,Light,None
+T0322,63,Male,12,1086,11047,Monthly,UPI,Fiber,1,0,111,2,209,3,15,1,8,South,1,No,Light,None
+T0323,43,Male,17,924,14916,Annual,UPI,DSL,1,0,124,8,243,4,5,0,9,West,0,No,Dark,None
+T0324,42,Female,9,974,7450,Monthly,Debit Card,None,3,1,87,2,180,2,15,0,5,West,0,Yes,System,None
+T0325,45,Male,10,767,6496,Annual,UPI,Fiber,2,0,65,2,159,4,15,2,9,East,3,Yes,Dark,None
+T0326,23,Male,4,822,2493,Annual,UPI,DSL,0,0,131,0,236,1,25,0,10,West,1,Yes,Light,None
+T0327,41,Female,4,840,2842,Monthly,NetBanking,None,2,1,99,1,172,2,15,0,5,West,0,No,System,None
+T0328,30,Female,26,1040,24331,Monthly,Debit Card,Fiber,4,1,90,15,180,5,10,0,5,West,1,No,Light,None
+T0329,23,Male,24,981,22382,Monthly,Debit Card,Fiber,5,1,122,15,229,3,5,0,4,South,0,Yes,System,None
+T0330,60,Male,22,1108,23159,Annual,NetBanking,Fiber,1,0,103,0,192,3,5,1,9,West,1,No,Light,None
+T0331,56,Male,28,884,22263,Monthly,Debit Card,Fiber,3,1,128,1,233,3,10,1,5,North,2,Yes,Light,None
+T0332,59,Male,1,917,917,Monthly,NetBanking,Fiber,6,3,185,22,322,3,20,0,1,South,0,No,Dark,None
+T0333,51,Female,19,977,15786,Annual,UPI,Fiber,1,0,124,1,242,5,15,0,10,South,1,Yes,Dark,None
+T0334,28,Female,55,1399,65382,Two Year,UPI,DSL,5,3,180,0,314,2,15,2,4,South,1,No,Light,None
+T0335,52,Male,27,1106,29879,Monthly,Credit Card,Fiber,2,1,128,1,230,2,0,1,6,West,0,No,Light,None
+T0336,43,Female,10,833,8310,Monthly,Credit Card,DSL,2,1,146,3,275,2,0,2,5,West,0,Yes,Light,None
+T0337,18,Female,30,841,25218,Monthly,Credit Card,None,8,3,180,14,331,4,0,2,1,West,0,Yes,System,None
+T0338,33,Male,13,752,9764,Annual,NetBanking,Fiber,0,0,131,5,209,3,0,3,9,West,0,Yes,System,None
+T0339,60,Male,6,1301,7819,Monthly,UPI,DSL,4,3,20,17,66,2,0,2,1,West,0,No,Dark,None
+T0340,55,Male,13,892,10437,Two Year,UPI,Fiber,2,0,96,0,181,1,10,0,10,East,0,Yes,Dark,None
+T0341,27,Male,22,900,18762,Monthly,Credit Card,Fiber,0,0,146,2,268,3,5,1,9,South,0,No,Light,None
+T0342,41,Female,21,1299,23208,Monthly,UPI,Fiber,0,0,145,1,267,1,15,3,9,South,1,No,Dark,None
+T0343,42,Female,9,605,5182,Monthly,UPI,Fiber,1,1,211,36,389,5,5,0,6,South,3,Yes,Dark,None
+T0344,42,Male,6,1035,5612,Monthly,NetBanking,Fiber,2,1,58,2,114,2,10,1,6,North,0,No,Dark,None
+T0345,36,Male,9,806,7243,Monthly,NetBanking,Fiber,2,1,126,1,242,2,0,2,4,West,0,No,Dark,None
+T0346,43,Male,3,855,2407,Monthly,Credit Card,Fiber,3,2,162,20,297,1,5,0,3,East,0,No,Light,None
+T0347,39,Female,34,597,18289,Monthly,Credit Card,Fiber,3,1,183,52,319,3,10,1,6,South,1,No,Dark,None
+T0348,41,Female,15,819,11644,Monthly,UPI,Fiber,6,1,78,8,171,4,5,0,4,East,0,Yes,Light,None
+T0349,36,Female,26,1237,24158,Monthly,UPI,DSL,2,1,61,6,132,3,25,2,6,West,2,Yes,System,None
+T0350,40,Male,31,534,14886,Annual,Credit Card,DSL,3,2,86,0,167,4,10,0,5,West,1,Yes,System,None
+T0351,61,Male,13,528,5141,Monthly,Credit Card,DSL,1,0,164,2,298,2,25,0,8,South,2,Yes,Light,None
+T0352,40,Female,5,1209,6038,Two Year,NetBanking,DSL,0,0,20,14,65,2,0,1,8,West,0,Yes,Dark,None
+T0353,20,Male,2,946,1886,Monthly,UPI,Fiber,2,1,86,42,146,3,0,0,5,East,0,No,Light,None
+T0354,42,Female,23,1240,25690,Monthly,Credit Card,Fiber,3,2,161,12,271,5,10,1,4,West,0,Yes,System,None
+T0355,37,Male,7,1103,6555,Two Year,NetBanking,Fiber,2,0,130,0,232,4,15,1,9,North,2,Yes,System,None
+T0356,36,Male,31,871,25617,Annual,UPI,DSL,2,1,164,5,303,3,5,0,7,South,2,Yes,Light,None
+T0357,28,Female,3,1281,3628,Monthly,Credit Card,Fiber,3,2,177,15,286,1,5,6,2,South,0,Yes,Light,None
+T0358,18,Male,26,1071,23636,Monthly,UPI,None,2,1,86,8,159,2,15,1,6,South,1,Yes,Light,None
+T0359,54,Female,15,971,13111,Annual,Credit Card,None,0,0,100,0,197,4,10,4,9,South,1,No,System,None
+T0360,25,Female,17,1039,16791,Monthly,UPI,Fiber,3,1,67,9,119,3,5,1,5,South,0,No,Dark,None
+T0361,37,Female,14,796,11123,Monthly,Debit Card,Fiber,2,1,91,0,192,2,0,5,5,South,2,No,Dark,None
+T0362,48,Female,4,895,3228,Annual,Credit Card,None,4,2,159,1,262,3,10,1,4,West,0,Yes,System,None
+T0363,75,Male,5,690,3081,Two Year,Credit Card,Fiber,0,0,118,6,222,5,10,1,10,West,2,No,Dark,None
+T0364,24,Female,14,863,12075,Monthly,Credit Card,DSL,3,0,134,5,252,3,0,0,6,South,0,Yes,Light,None
+T0365,32,Male,11,757,6261,Annual,UPI,Fiber,0,0,139,9,251,5,25,0,10,East,0,No,Dark,None
+T0366,34,Female,36,893,32123,Monthly,Credit Card,Fiber,1,0,95,1,195,2,0,2,8,West,0,Yes,Dark,None
+T0367,52,Male,23,769,17678,Monthly,Debit Card,Fiber,4,1,203,14,393,3,0,0,5,North,2,No,Light,None
+T0368,53,Male,29,1275,33295,Annual,Credit Card,Fiber,4,2,105,4,156,3,10,4,5,North,1,No,Dark,None
+T0369,61,Female,15,1150,16412,Monthly,Credit Card,Fiber,0,0,191,1,369,3,5,2,9,East,1,No,Dark,None
+T0370,18,Male,8,895,6783,Annual,NetBanking,DSL,0,0,147,0,278,4,5,2,9,South,1,No,Light,None
+T0371,49,Male,14,1025,11458,Monthly,Credit Card,DSL,0,0,136,3,233,4,20,1,9,South,1,No,Dark,None
+T0372,44,Male,8,804,6407,Monthly,Credit Card,DSL,2,1,140,4,254,3,0,1,5,North,2,No,System,None
+T0373,38,Female,20,877,16631,Monthly,Credit Card,Fiber,2,0,141,1,253,3,5,3,7,South,2,No,Light,None
+T0374,43,Female,14,706,8893,Monthly,UPI,DSL,1,1,91,7,182,2,10,0,7,East,0,No,System,None
+T0375,26,Female,13,1011,11801,Monthly,NetBanking,DSL,6,3,171,15,318,1,10,0,2,South,1,No,System,None
+T0376,58,Female,7,822,5143,Two Year,UPI,Fiber,0,0,129,0,242,3,10,0,10,South,1,No,Dark,None
+T0377,35,Male,14,544,7616,Monthly,Debit Card,DSL,0,0,75,10,156,3,0,0,8,South,1,Yes,System,None
+T0378,22,Female,19,764,14518,Monthly,UPI,Fiber,0,0,122,6,212,4,0,1,8,South,1,Yes,Light,None
+T0379,35,Female,13,1071,13267,Annual,UPI,DSL,0,0,168,1,310,2,5,2,9,West,0,No,Dark,None
+T0380,37,Male,5,1448,6501,Monthly,UPI,DSL,2,1,109,13,162,3,10,2,5,West,1,Yes,System,None
+T0381,50,Male,14,1146,14449,Annual,NetBanking,DSL,0,0,161,5,308,4,10,1,10,East,1,No,Light,None
+T0382,48,Female,15,816,9741,Annual,UPI,Fiber,0,0,102,5,184,1,20,0,10,South,0,No,Light,None
+T0383,44,Female,5,998,4251,Annual,NetBanking,Fiber,0,0,117,13,243,5,15,0,9,North,0,No,System,None
+T0384,51,Female,4,1010,3627,Annual,NetBanking,None,0,0,67,0,113,1,10,2,9,South,1,Yes,Light,None
+T0385,24,Female,21,850,15175,Monthly,UPI,Fiber,1,0,104,1,193,4,15,0,9,East,1,No,Dark,None
+T0386,36,Female,12,687,7857,Monthly,NetBanking,Fiber,1,1,134,5,261,3,5,1,6,South,0,Yes,Dark,None
+T0387,39,Male,14,838,11121,Monthly,UPI,DSL,0,0,114,7,198,3,5,0,9,South,1,No,Light,None
+T0388,38,Female,1,1132,1178,Annual,Debit Card,DSL,0,0,73,5,150,2,0,3,8,West,0,No,Light,None
+T0389,52,Male,22,1010,22211,Monthly,UPI,DSL,1,1,124,15,212,4,0,0,6,South,2,No,System,None
+T0390,20,Male,9,834,7124,Annual,UPI,Fiber,1,1,133,0,230,3,5,1,7,North,2,No,System,None
+T0391,28,Male,8,1316,8921,Two Year,Credit Card,Fiber,0,0,26,4,43,2,15,1,10,West,1,No,System,None
+T0392,44,Male,9,841,7194,Monthly,UPI,DSL,2,1,87,10,141,3,5,0,4,North,0,Yes,Light,None
+T0393,26,Male,2,811,1456,Monthly,Credit Card,Fiber,3,1,143,1,277,4,10,1,4,West,1,No,Light,None
+T0394,31,Female,16,1054,16911,Monthly,UPI,DSL,1,1,158,1,335,2,0,1,6,West,1,No,System,None
+T0395,44,Female,1,1415,1415,Monthly,NetBanking,DSL,5,1,132,19,246,1,5,2,3,South,0,Yes,Dark,None
+T0396,39,Female,15,825,9926,Monthly,UPI,Fiber,3,2,138,31,234,4,20,0,5,South,0,No,System,None
+T0397,26,Male,5,560,2520,Monthly,NetBanking,Fiber,4,2,124,17,227,3,10,1,3,South,0,Yes,System,None
+T0398,35,Female,4,1046,3566,Two Year,UPI,DSL,0,0,120,3,227,3,15,3,10,South,3,No,Dark,None
+T0399,48,Female,25,870,19564,Annual,UPI,Fiber,1,0,138,0,244,3,10,0,10,West,0,Yes,Dark,None
+T0400,32,Female,19,1492,28340,Monthly,Credit Card,None,2,1,59,0,113,4,0,1,4,West,2,Yes,Dark,None
+T0401,26,Male,11,1126,11142,Annual,Credit Card,DSL,4,0,69,5,160,4,10,1,7,South,0,Yes,Dark,None
+T0402,54,Male,12,1271,15233,Annual,NetBanking,DSL,2,0,87,0,147,3,0,3,8,West,1,No,Dark,None
+T0403,32,Male,23,1107,25463,Monthly,UPI,DSL,0,0,128,16,249,1,0,1,9,East,1,No,Light,None
+T0404,18,Male,10,922,8262,Monthly,Debit Card,Fiber,2,1,90,1,168,3,10,0,5,West,0,Yes,Dark,None
+T0405,63,Male,3,819,2103,Monthly,UPI,Fiber,1,1,103,8,198,5,15,1,7,East,1,Yes,Dark,None
+T0406,31,Female,38,887,25309,Monthly,Credit Card,Fiber,0,0,77,2,137,2,25,0,10,East,0,Yes,System,None
+T0407,62,Male,29,1048,30363,Monthly,UPI,Fiber,3,2,105,11,185,2,0,3,4,North,3,No,System,None
+T0408,57,Male,38,1170,44458,Monthly,Credit Card,DSL,3,1,89,1,154,4,0,1,6,West,0,No,System,None
+T0409,54,Male,20,1135,22682,Annual,Credit Card,Fiber,6,1,185,11,350,3,0,2,5,East,1,No,System,None
+T0410,48,Male,21,1053,22123,Monthly,UPI,DSL,0,0,192,15,349,2,0,2,8,South,0,Yes,Dark,None
+T0411,33,Male,8,792,6319,Monthly,Credit Card,DSL,1,1,47,1,85,2,0,2,6,East,1,No,Dark,None
+T0412,40,Female,5,1160,4355,Annual,UPI,Fiber,0,0,161,22,294,4,25,2,9,South,1,Yes,System,None
+T0413,24,Female,5,584,2205,Monthly,Credit Card,Fiber,5,1,131,2,240,3,25,0,4,South,0,No,System,None
+T0414,46,Female,5,1015,5050,Monthly,UPI,None,2,1,55,5,112,5,0,2,4,East,2,Yes,System,None
+T0415,47,Female,21,1011,18085,Monthly,Credit Card,Fiber,2,1,187,4,325,2,15,0,6,North,0,Yes,System,None
+T0416,30,Female,7,1023,7120,Monthly,UPI,Fiber,2,1,57,1,129,1,0,0,5,South,1,Yes,System,None
+T0417,52,Female,11,917,8598,Annual,UPI,Fiber,0,0,85,4,177,1,15,0,10,West,0,Yes,Light,None
+T0418,53,Female,10,859,8567,Two Year,UPI,Fiber,1,1,97,9,206,3,0,0,7,North,0,No,Dark,None
+T0419,49,Male,15,1258,18866,Two Year,UPI,Fiber,2,1,111,7,213,3,0,2,6,South,0,Yes,Light,None
+T0420,52,Male,16,937,14981,Monthly,Credit Card,Fiber,5,3,102,24,202,3,0,0,1,South,0,Yes,System,None
+T0421,48,Male,9,1131,9174,Monthly,UPI,DSL,2,1,76,5,140,2,10,1,6,West,1,No,Dark,None
+T0422,36,Female,19,663,10685,Monthly,UPI,Fiber,3,1,35,12,83,4,15,0,6,West,0,Yes,Dark,None
+T0423,33,Female,10,781,6629,Monthly,UPI,DSL,8,1,98,16,179,2,15,4,3,South,0,Yes,System,None
+T0424,39,Male,31,850,26310,Monthly,Credit Card,Fiber,2,1,54,10,108,2,0,0,6,South,2,No,Dark,None
+T0425,47,Male,16,1178,18858,Annual,Debit Card,Fiber,2,1,141,33,263,3,0,1,6,South,3,Yes,Light,None
+T0426,30,Female,13,1195,11691,Monthly,Credit Card,Fiber,4,2,71,1,137,3,25,1,4,West,0,No,System,None
+T0427,51,Male,5,1216,5481,Monthly,UPI,Fiber,5,2,139,19,244,2,10,2,2,South,2,No,Dark,None
+T0428,25,Female,10,872,8730,Annual,UPI,None,2,0,75,21,156,1,0,0,8,West,1,No,System,None
+T0429,57,Female,21,816,15444,Monthly,Debit Card,Fiber,2,1,92,5,188,3,10,1,5,East,2,Yes,System,None
+T0430,44,Male,24,879,18991,Annual,Debit Card,Fiber,2,1,132,1,266,5,10,1,6,South,0,Yes,Light,None
+T0431,42,Female,14,999,13288,Monthly,Credit Card,Fiber,1,1,156,6,292,2,5,2,6,West,0,No,Light,None
+T0432,35,Male,21,613,9646,Monthly,UPI,Fiber,4,2,103,2,185,2,25,0,4,West,0,Yes,System,None
+T0433,30,Male,21,971,19377,Monthly,Credit Card,Fiber,2,1,126,5,188,2,5,1,6,West,1,Yes,Dark,None
+T0434,64,Male,18,975,17487,Annual,UPI,DSL,0,0,126,1,216,2,0,0,10,South,1,Yes,Dark,None
+T0435,24,Female,4,888,3594,Monthly,Credit Card,DSL,5,2,41,17,75,5,0,0,2,North,1,No,System,None
+T0436,34,Male,19,859,16318,Two Year,Credit Card,Fiber,1,0,112,6,204,2,0,0,10,North,0,No,Dark,None
+T0437,52,Female,20,1064,20207,Monthly,Credit Card,Fiber,1,0,103,4,164,1,5,3,8,East,0,No,System,None
+T0438,29,Female,5,872,4334,Monthly,UPI,None,3,2,105,18,176,2,0,2,3,South,0,Yes,Dark,None
+T0439,33,Male,34,843,25762,Two Year,UPI,DSL,0,0,203,7,381,4,10,0,10,South,0,No,Dark,None
+T0440,61,Female,26,815,21210,Monthly,UPI,Fiber,2,1,64,8,88,2,0,1,6,South,0,No,Dark,None
+T0441,29,Female,26,645,15102,Monthly,NetBanking,Fiber,1,1,69,2,128,2,10,0,7,South,0,No,Dark,None
+T0442,28,Male,8,682,5482,Two Year,UPI,Fiber,1,0,160,9,274,2,0,0,9,West,0,Yes,Dark,None
+T0443,38,Male,12,756,8178,Monthly,UPI,Fiber,2,1,109,11,208,3,10,0,7,West,2,No,Dark,None
+T0444,25,Female,1,1022,1030,Annual,Debit Card,Fiber,0,0,113,1,223,1,0,1,8,West,1,Yes,Light,None
+T0445,34,Male,32,1297,39432,Monthly,Credit Card,Fiber,1,1,128,1,238,1,5,1,6,West,1,Yes,Light,None
+T0446,31,Female,25,853,20248,Monthly,Credit Card,DSL,0,0,109,18,193,4,5,1,8,West,0,Yes,Light,None
+T0447,49,Male,6,971,5263,Two Year,Debit Card,Fiber,1,0,156,0,254,2,10,1,10,West,1,No,System,None
+T0448,69,Male,22,902,15874,Monthly,UPI,Fiber,2,0,130,2,227,2,20,1,9,West,0,Yes,System,None
+T0449,18,Female,22,1096,24133,Monthly,Debit Card,Fiber,4,2,130,14,252,4,0,2,3,West,0,Yes,Light,None
+T0450,64,Female,9,887,7569,Monthly,Credit Card,Fiber,5,3,88,14,165,4,5,0,1,South,3,No,Light,None
+T0451,27,Female,1,905,912,Monthly,UPI,Fiber,3,2,153,15,258,3,0,0,2,North,0,No,Dark,None
+T0452,31,Male,23,895,20550,Monthly,Credit Card,Fiber,0,0,90,24,191,3,0,0,8,North,0,No,Dark,None
+T0453,30,Female,4,856,3058,Monthly,Debit Card,Fiber,2,1,148,4,286,2,10,0,5,East,1,Yes,Dark,None
+T0454,56,Male,22,1259,26335,Two Year,NetBanking,Fiber,0,0,170,12,315,5,5,1,10,East,0,Yes,Dark,None
+T0455,49,Female,11,970,10677,Monthly,UPI,DSL,4,2,118,17,216,4,0,0,3,South,0,No,Light,None
+T0456,44,Male,14,1095,15320,Monthly,UPI,Fiber,4,1,148,12,292,4,0,1,4,East,2,No,Dark,None
+T0457,58,Female,26,915,21437,Monthly,NetBanking,Fiber,2,1,114,7,205,3,10,2,6,East,1,Yes,Dark,None
+T0458,55,Male,19,624,11290,Annual,UPI,Fiber,2,1,118,6,225,4,5,0,8,South,0,No,System,None
+T0459,31,Male,15,608,9126,Annual,Credit Card,DSL,1,0,78,9,153,5,0,0,9,South,0,Yes,Light,None
+T0460,45,Male,4,1021,4083,Two Year,NetBanking,Fiber,2,1,133,0,255,2,0,2,6,West,1,No,Light,None
+T0461,48,Male,1,1068,1068,Monthly,UPI,Fiber,3,1,155,4,294,4,20,1,5,North,0,No,Light,None
+T0462,49,Male,12,1045,10637,Monthly,Credit Card,None,4,0,85,10,170,1,15,1,7,West,1,No,Dark,None
+T0463,56,Female,8,871,5975,Monthly,NetBanking,DSL,5,2,95,28,174,3,15,0,3,East,0,Yes,Light,None
+T0464,47,Male,1,963,963,Annual,Credit Card,Fiber,0,0,155,9,270,3,10,1,9,South,0,No,Light,None
+T0465,19,Female,8,1182,7550,Two Year,Debit Card,DSL,4,0,83,23,158,2,20,2,8,North,1,No,Light,None
+T0466,44,Female,6,806,4847,Monthly,NetBanking,None,2,1,97,2,191,3,0,0,6,South,2,Yes,Dark,None
+T0467,29,Female,17,1025,15711,Monthly,Credit Card,DSL,1,1,159,8,309,3,10,0,7,East,2,Yes,Dark,None
+T0468,20,Female,25,585,13884,Monthly,Credit Card,Fiber,0,0,93,20,200,2,5,4,8,South,0,Yes,System,None
+T0469,40,Male,14,984,13104,Monthly,NetBanking,DSL,2,1,174,22,331,2,5,0,6,South,1,No,Dark,None
+T0470,41,Female,12,1085,11684,Two Year,Credit Card,Fiber,0,0,190,8,346,3,10,1,10,East,1,Yes,System,None
+T0471,46,Male,19,1022,17472,Monthly,Debit Card,Fiber,0,0,105,1,210,4,10,0,8,North,2,Yes,Light,None
+T0472,32,Male,17,708,12021,Two Year,Debit Card,Fiber,2,1,86,4,150,2,0,0,7,West,0,No,Dark,None
+T0473,51,Female,11,720,7071,Two Year,NetBanking,DSL,0,0,112,4,218,1,10,0,10,West,1,Yes,Dark,None
+T0474,73,Female,12,710,7282,Monthly,UPI,Fiber,3,2,98,5,183,4,15,3,5,South,3,Yes,Light,None
+T0475,29,Female,9,841,6819,Annual,Debit Card,Fiber,1,0,101,12,212,1,10,0,10,South,1,No,Dark,None
+T0476,30,Male,10,1120,11193,Annual,UPI,None,0,0,141,1,245,3,0,1,9,West,1,No,Light,None
+T0477,46,Male,6,862,4643,Monthly,UPI,DSL,2,1,123,6,228,4,10,3,6,North,1,Yes,Dark,None
+T0478,43,Female,6,734,3354,Monthly,Credit Card,DSL,1,1,190,24,344,4,25,0,6,West,1,Yes,Light,None
+T0479,28,Female,12,667,7207,Monthly,Credit Card,Fiber,2,1,121,6,196,3,10,0,6,South,0,No,Dark,None
+T0480,18,Female,12,1092,13099,Monthly,Credit Card,DSL,5,3,111,28,232,3,0,1,1,South,0,No,System,None
+T0481,35,Female,9,1241,8393,Annual,UPI,Fiber,0,0,23,3,49,3,25,1,9,West,1,Yes,System,None
+T0482,51,Female,4,829,2966,Monthly,UPI,DSL,3,2,165,25,295,2,10,2,3,West,2,Yes,System,None
+T0483,70,Male,17,1285,17480,Two Year,UPI,Fiber,1,0,155,1,269,4,20,2,10,North,2,No,System,None
+T0484,54,Female,3,1294,3872,Two Year,UPI,Fiber,0,0,98,23,185,2,0,1,8,South,0,No,Dark,None
+T0485,41,Male,14,632,7964,Annual,Credit Card,Fiber,2,1,112,5,215,3,10,1,7,South,0,Yes,Light,None
+T0486,36,Male,8,773,5875,Monthly,UPI,Fiber,3,1,150,6,295,3,5,1,4,West,0,Yes,System,None
+T0487,52,Male,14,977,12997,Annual,Credit Card,Fiber,3,1,127,4,225,3,5,0,6,East,0,Yes,Dark,None
+T0488,51,Male,11,1220,12102,Monthly,UPI,Fiber,3,2,142,19,243,3,10,1,3,East,0,Yes,Dark,None
+T0489,28,Male,20,1116,20074,Monthly,Credit Card,Fiber,2,1,145,4,289,4,10,1,6,South,1,Yes,Light,None
+T0490,38,Female,14,868,9114,Monthly,UPI,Fiber,2,1,114,2,198,2,25,0,7,West,1,Yes,System,None
+T0491,21,Female,3,1268,3257,Annual,UPI,Fiber,6,4,112,28,225,3,15,2,1,South,0,Yes,Light,None
+T0492,49,Male,2,1058,1991,Two Year,UPI,Fiber,0,0,127,31,226,2,5,1,9,West,1,No,System,None
+T0493,30,Female,16,967,13958,Two Year,UPI,Fiber,0,0,109,1,194,4,10,1,10,West,0,No,Light,None
+T0494,38,Female,5,616,2921,Monthly,UPI,DSL,3,1,126,5,228,1,5,0,5,West,2,Yes,Light,None
+T0495,26,Male,12,668,6797,Annual,Credit Card,Fiber,0,0,95,0,205,1,15,0,10,South,0,No,Light,None
+T0496,46,Male,3,1447,3878,Annual,UPI,Fiber,1,0,66,2,111,3,10,1,8,South,0,Yes,Dark,None
+T0497,26,Male,4,1031,3499,Monthly,NetBanking,Fiber,6,1,181,24,328,3,15,1,3,West,1,Yes,Light,None
+T0498,51,Male,8,847,6431,Monthly,UPI,None,2,1,130,16,244,2,5,0,5,East,2,No,System,None
+T0499,18,Male,19,916,14795,Monthly,UPI,Fiber,0,0,121,7,239,3,15,1,8,North,0,No,Dark,None
+T0500,46,Female,25,799,18937,Monthly,NetBanking,Fiber,3,2,95,23,160,2,5,0,3,South,0,No,System,None
+T0501,40,Female,11,967,9593,Annual,NetBanking,DSL,2,1,174,0,317,4,10,0,6,South,1,No,Dark,None
+T0502,36,Female,4,1215,4418,Annual,UPI,Fiber,3,0,145,6,267,3,10,1,7,South,0,Yes,Light,None
+T0503,47,Male,8,835,6700,Monthly,UPI,DSL,5,1,31,13,62,2,0,0,4,South,0,Yes,System,None
+T0504,48,Male,2,1035,1576,Monthly,Debit Card,Fiber,2,1,179,14,320,4,25,0,6,South,0,No,System,None
+T0505,42,Female,8,957,6872,Two Year,Credit Card,None,2,1,154,1,274,5,10,0,8,West,2,No,System,None
+T0506,25,Female,23,591,10882,Monthly,Debit Card,DSL,5,3,114,21,223,2,20,1,2,South,1,No,Dark,None
+T0507,46,Male,23,922,21219,Monthly,Debit Card,Fiber,1,0,114,2,200,2,0,1,8,West,0,Yes,System,None
+T0508,25,Female,41,642,23700,Monthly,NetBanking,Fiber,2,1,107,9,197,1,10,1,7,South,1,Yes,Dark,None
+T0509,62,Female,5,1228,6146,Monthly,UPI,Fiber,5,2,172,16,306,1,0,1,1,South,2,Yes,System,None
+T0510,36,Female,24,1197,25885,Monthly,Credit Card,Fiber,2,1,73,3,167,3,10,1,5,South,1,Yes,System,None
+T0511,47,Female,7,1050,6615,Monthly,UPI,None,1,1,121,22,232,1,10,0,6,South,1,No,System,None
+T0512,18,Female,3,517,1566,Monthly,Credit Card,Fiber,7,4,108,17,196,2,0,0,1,West,0,Yes,Dark,None
+T0513,33,Male,9,917,7855,Monthly,NetBanking,None,1,1,115,13,202,3,5,1,6,South,1,No,Light,None
+T0514,61,Male,13,717,7938,Two Year,Debit Card,DSL,5,0,130,1,250,3,15,0,9,West,0,No,Light,None
+T0515,55,Female,12,640,7672,Monthly,Debit Card,DSL,3,2,148,31,278,3,0,3,3,South,2,No,Dark,None
+T0516,52,Male,26,851,22142,Monthly,NetBanking,DSL,3,1,93,5,172,2,0,3,6,East,0,No,Dark,None
+T0517,37,Female,10,606,5497,Monthly,Credit Card,Fiber,2,1,123,0,224,2,10,1,5,West,0,Yes,Dark,None
+T0518,55,Female,12,1191,12837,Two Year,Credit Card,DSL,2,1,151,5,248,1,10,1,7,West,0,Yes,System,None
+T0519,42,Male,17,1073,16450,Monthly,NetBanking,Fiber,1,0,100,5,204,5,10,1,8,East,1,No,Dark,None
+T0520,29,Male,11,674,7421,Annual,NetBanking,Fiber,0,0,90,1,163,3,0,0,10,West,1,Yes,Dark,None
+T0521,41,Female,8,969,7749,Annual,Debit Card,Fiber,1,0,111,2,208,2,0,0,8,West,0,Yes,Dark,None
+T0522,31,Female,11,1328,13890,Annual,UPI,DSL,1,0,132,11,251,3,5,1,8,East,0,No,Dark,None
+T0523,47,Female,35,1136,33774,Monthly,Debit Card,DSL,6,3,126,18,242,5,15,3,1,East,1,Yes,Light,None
+T0524,42,Female,7,823,5740,Monthly,UPI,DSL,4,1,69,0,141,3,0,0,5,South,0,No,Light,None
+T0525,59,Female,2,1007,1909,Monthly,NetBanking,Fiber,1,1,80,6,148,2,5,2,5,South,0,No,Dark,None
+T0526,60,Female,1,972,972,Two Year,Debit Card,Fiber,1,0,159,17,276,3,0,0,8,West,1,Yes,Dark,None
+T0527,18,Female,21,898,16991,Monthly,NetBanking,Fiber,2,0,115,0,189,3,10,0,7,West,1,No,Light,None
+T0528,29,Female,9,816,6600,Annual,Credit Card,Fiber,2,0,139,3,256,1,10,1,8,South,0,Yes,System,None
+T0529,30,Female,31,912,26851,Monthly,UPI,Fiber,0,0,140,1,264,4,5,0,8,South,0,Yes,Light,None
+T0530,52,Female,4,835,3339,Monthly,NetBanking,DSL,7,4,121,22,235,3,0,1,1,West,1,No,Dark,None
+T0531,52,Female,31,896,22226,Monthly,NetBanking,Fiber,0,0,66,3,132,2,20,0,8,East,2,Yes,Light,None
+T0532,20,Male,22,1001,20909,Monthly,UPI,DSL,3,1,117,8,207,3,5,0,5,South,0,No,Light,None
+T0533,33,Male,4,991,3575,Monthly,Debit Card,DSL,4,2,154,16,308,2,10,1,2,South,0,Yes,Light,None
+T0534,32,Male,4,349,1320,Two Year,NetBanking,Fiber,4,0,170,4,338,2,5,1,8,South,0,No,Dark,None
+T0535,33,Female,8,1350,10795,Monthly,Credit Card,DSL,3,1,103,2,193,2,0,1,4,East,2,No,Light,None
+T0536,53,Male,27,743,20065,Monthly,UPI,DSL,4,2,70,15,146,4,0,0,3,North,0,Yes,System,None
+T0537,45,Female,14,791,8857,Annual,Credit Card,Fiber,1,0,97,5,167,2,20,0,10,South,0,Yes,Light,None
+T0538,54,Female,12,1451,16529,Monthly,UPI,None,3,1,96,4,173,1,5,1,5,West,0,Yes,System,None
+T0539,46,Male,5,962,4087,Two Year,NetBanking,Fiber,4,0,149,25,286,6,15,0,8,North,0,No,System,None
+T0540,23,Female,13,900,11117,Annual,UPI,Fiber,1,0,161,3,310,4,5,0,9,West,0,No,Light,None
+T0541,38,Female,6,982,5311,Monthly,UPI,Fiber,2,1,168,15,324,3,10,1,5,West,0,Yes,Light,None
+T0542,52,Male,28,913,24268,Two Year,UPI,Fiber,1,0,67,8,129,4,5,0,10,North,0,Yes,Dark,None
+T0543,33,Female,17,836,13521,Monthly,Debit Card,Fiber,3,2,171,2,313,4,5,1,4,South,0,Yes,Light,None
+T0544,38,Male,9,821,5908,Two Year,Credit Card,DSL,2,0,132,13,250,3,20,1,9,South,0,Yes,Light,None
+T0545,32,Male,17,946,12865,Monthly,Credit Card,Fiber,3,1,170,0,309,4,20,1,5,West,2,Yes,System,None
+T0546,26,Male,7,1010,7086,Annual,Credit Card,DSL,1,0,86,0,166,2,0,1,8,North,0,Yes,Dark,None
+T0547,47,Female,3,1334,4009,Monthly,Debit Card,DSL,3,2,118,16,212,2,0,1,2,South,0,Yes,Dark,None
+T0548,39,Female,3,748,2224,Two Year,NetBanking,Fiber,4,2,86,0,183,3,0,1,4,South,0,No,Light,None
+T0549,40,Female,8,1001,6812,Monthly,NetBanking,DSL,6,4,111,23,212,1,15,0,1,North,0,Yes,System,None
+T0550,45,Male,14,814,9099,Monthly,Credit Card,Fiber,5,1,129,6,223,4,20,0,5,South,3,Yes,Light,None
+T0551,43,Male,38,874,29908,Two Year,UPI,None,0,0,93,0,176,2,10,0,10,South,0,Yes,System,None
+T0552,56,Female,39,955,35351,Two Year,UPI,Fiber,3,0,120,1,222,2,5,0,9,South,0,Yes,System,None
+T0553,32,Male,13,570,7024,Annual,NetBanking,Fiber,0,0,116,0,223,2,5,0,9,South,0,Yes,Dark,None
+T0554,34,Male,16,981,15711,Annual,NetBanking,DSL,0,0,129,0,249,3,0,0,10,South,2,No,Light,None
+T0555,34,Male,3,1069,3185,Monthly,UPI,Fiber,2,1,80,0,177,3,0,2,5,East,0,Yes,Dark,None
+T0556,34,Female,22,1203,23835,Monthly,Credit Card,None,1,1,98,21,215,3,10,2,7,South,0,Yes,Dark,None
+T0557,31,Male,23,1012,19760,Monthly,UPI,Fiber,3,1,127,0,230,4,15,0,6,North,1,No,Light,None
+T0558,36,Female,6,1290,6960,Monthly,UPI,None,2,1,62,2,121,4,10,3,6,West,0,No,System,None
+T0559,51,Male,27,1196,30662,Monthly,Debit Card,None,3,1,91,7,181,5,5,1,5,West,1,No,Dark,None
+T0560,33,Female,19,1122,19196,Monthly,Credit Card,Fiber,3,2,143,11,223,2,10,2,4,South,0,Yes,Light,None
+T0561,29,Male,23,958,20952,Monthly,UPI,DSL,3,0,30,7,83,3,5,1,7,West,1,Yes,Dark,None
+T0562,46,Male,38,835,31761,Monthly,UPI,Fiber,0,0,102,17,200,3,0,1,10,West,0,Yes,Dark,None
+T0563,46,Male,43,872,33778,Monthly,NetBanking,Fiber,2,0,108,14,207,2,10,1,9,West,2,No,Dark,None
+T0564,27,Male,49,991,46175,Monthly,Credit Card,Fiber,1,1,144,6,262,3,5,0,7,West,1,No,Light,None
+T0565,45,Female,17,1141,19444,Monthly,UPI,DSL,3,1,194,0,355,1,0,1,6,West,1,No,Light,None
+T0566,36,Female,20,854,17092,Monthly,Credit Card,Fiber,3,2,154,28,301,2,0,1,4,South,2,No,Dark,None
+T0567,25,Female,4,1335,5118,Annual,UPI,DSL,2,1,89,9,161,3,5,2,6,West,0,No,Light,None
+T0568,63,Female,20,1562,28115,Monthly,Credit Card,Fiber,2,1,133,0,241,1,10,1,6,South,1,No,System,None
+T0569,29,Male,6,591,3413,Monthly,UPI,DSL,2,1,143,1,263,2,5,0,5,South,2,Yes,Dark,None
+T0570,51,Male,9,996,8082,Monthly,Credit Card,Fiber,3,1,172,7,336,4,10,0,4,South,0,No,Light,None
+T0571,67,Male,14,928,12330,Monthly,NetBanking,Fiber,0,0,27,1,85,1,5,0,8,East,2,No,Dark,None
+T0572,56,Female,35,499,16604,Annual,Credit Card,Fiber,1,0,114,2,222,4,5,0,9,South,1,No,Light,None
+T0573,43,Female,20,813,16252,Monthly,NetBanking,DSL,3,2,135,6,249,1,0,2,4,West,2,Yes,System,None
+T0574,56,Female,4,937,2970,Annual,Debit Card,Fiber,0,0,148,3,263,4,20,0,9,West,1,Yes,Light,None
+T0575,31,Female,10,1079,9703,Monthly,Credit Card,Fiber,4,1,152,6,269,4,10,2,4,South,2,Yes,System,None
+T0576,20,Male,8,699,5360,Annual,Debit Card,Fiber,2,1,80,7,168,2,5,3,7,West,0,No,Dark,None
+T0577,48,Female,7,790,5001,Monthly,Credit Card,DSL,1,1,112,37,214,2,10,0,6,West,1,Yes,Dark,None
+T0578,38,Female,15,966,13765,Annual,Credit Card,None,2,1,119,4,219,1,5,0,6,West,0,Yes,Dark,None
+T0579,19,Male,21,1328,27894,Monthly,Credit Card,Fiber,2,1,104,9,199,4,0,1,5,South,0,Yes,Dark,None
+T0580,39,Female,27,957,24541,Monthly,UPI,DSL,0,0,152,22,281,1,5,0,8,West,0,No,Dark,None
+T0581,34,Male,36,1346,43599,Monthly,UPI,Fiber,2,1,154,4,296,3,10,3,5,North,0,No,Dark,None
+T0582,35,Female,24,1218,26331,Monthly,Credit Card,Fiber,4,2,73,27,130,1,10,1,3,North,0,Yes,Light,None
+T0583,42,Male,9,1110,9994,Monthly,Credit Card,Fiber,1,1,119,5,235,3,0,2,5,East,1,Yes,Light,None
+T0584,39,Female,12,1125,11480,Annual,Debit Card,Fiber,0,0,79,12,154,4,15,1,10,North,0,No,System,None
+T0585,57,Male,18,1113,19056,Monthly,Credit Card,DSL,2,1,146,45,252,4,5,2,6,East,3,Yes,Dark,None
+T0586,37,Male,20,1235,24697,Monthly,UPI,Fiber,2,1,107,2,181,2,0,1,5,East,0,Yes,Dark,None
+T0587,67,Female,15,740,10537,Two Year,Debit Card,None,3,2,142,4,275,3,5,2,6,South,3,Yes,System,None
+T0588,46,Female,9,913,8244,Monthly,NetBanking,Fiber,1,1,91,7,163,4,0,0,5,South,1,Yes,Dark,None
+T0589,57,Female,8,724,5793,Monthly,Debit Card,Fiber,7,2,75,23,164,2,0,1,1,West,0,Yes,Dark,None
+T0590,18,Female,7,902,6312,Two Year,Credit Card,Fiber,1,0,130,17,243,3,0,0,8,West,2,Yes,Dark,None
+T0591,50,Male,9,805,6899,Monthly,UPI,Fiber,1,1,177,10,338,2,5,0,5,East,0,Yes,Light,None
+T0592,19,Female,19,1111,21158,Monthly,Credit Card,DSL,0,0,112,4,205,2,0,2,9,North,2,No,Light,None
+T0593,47,Male,38,831,28445,Annual,Credit Card,Fiber,10,5,140,15,252,2,10,0,1,South,0,Yes,System,None
+T0594,65,Female,25,1034,23248,Monthly,NetBanking,Fiber,2,1,141,3,235,1,10,1,7,East,2,Yes,Light,None
+T0595,20,Female,3,685,1922,Monthly,UPI,Fiber,4,1,141,5,247,2,5,0,4,West,1,No,Light,None
+T0596,66,Female,13,1054,13707,Annual,Credit Card,None,4,1,99,7,202,2,0,1,6,North,1,Yes,System,None
+T0597,31,Female,7,760,5361,Monthly,NetBanking,None,5,3,145,38,266,3,0,0,1,South,0,No,System,None
+T0598,23,Female,11,856,9415,Monthly,UPI,Fiber,3,1,131,6,241,3,0,0,5,South,0,No,System,None
+T0599,38,Male,23,1134,23502,Monthly,UPI,DSL,0,0,178,9,319,1,10,2,8,West,0,No,Light,None
+T0600,37,Male,23,733,15993,Monthly,NetBanking,Fiber,1,0,92,34,191,3,5,4,7,East,2,No,Light,None
